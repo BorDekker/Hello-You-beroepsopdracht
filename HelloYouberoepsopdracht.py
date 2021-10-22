@@ -78,6 +78,18 @@ while True:
                         print("Toen ze daar aankwamen, vonden ze gelijk een vluchteling asiel")
                         print("Ze kwamen daar binnen en vroegen of ze ergens een slaap plek konden vinden")
                         print("Het asiel bood bij hun een slaap plek aan of bij een huis, welke kies je?")
+                        inputText = input()
+                        if inputText == "asiel":
+                            print("Jullie wilden graag slapen bij het asiel, want daar voelen jullie je veilig")
+                            print("De volgende ochtend nadat jullie hebben ontbeten zijn jullie opzoek gegaan naar werk")
+                            print("Jullie konden allebei een krantenwijk doen waar jullie per week 16,50 euro konden verdiennen. Nisa en Amir namen de banen aan en ging hard werken")
+                            print("(5 1/2 jaar later) Nisa heeft nu een part-time job als business manager en Amir heeft een fulltime job als de eigenaar van een comic-book winkel")
+                            print("6 jaar nadat Nisa werkte als een business manager kwam ze in een auto ongeluk, ze kan haar benen nooit meer gebruiken")
+                            print("Nisa woont alleen thuis samen met haar man George die goed voor haar zorgt. Amir komt in het weekend telkens langs om te kijken hoe het gaat")
+                            print("Nisa en Amir hebben eindelijk een goed leven na zo'n lange tijd, en we hopen dat meerdere vluchtelingen hetzelfde kunnen hebben")
+                            print("The Live Long and Prosper Ending")
+                        elif inputText == "huis":
+                            print("Jullie wilden liever slapen in een huis, zodat je wat meer thuis voelt")
    
             elif inputText == "Italië":
                 print("Ze namen de boot naar Italië")
